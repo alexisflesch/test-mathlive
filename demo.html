@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@cortex-js/compute-engine"></script>
+    <script type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>EBoP and Mathlive</title>
+
+
+</head>
+
+<body>
+    <div id="math-container"></div>
+    <button onclick="displayMathFieldsContent()">Display MathJSON representation</button>
+
+    <!-- Output spans to display content -->
+    <div style="margin-top: 20px;">
+        <strong>Internal Representation of All Fields (MathJSON):</strong>
+        <span id="output-json"
+            style="display: block; margin-top: 10px; font-family: monospace; white-space: pre-line;"></span>
+    </div>
+</body>
+
+
+</html>

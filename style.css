@@ -1,0 +1,21 @@
+#math-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.mathline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#math-container .mathline .ML__highlight {
+    color: red !important;
+    font-weight: bold !important;
+}
